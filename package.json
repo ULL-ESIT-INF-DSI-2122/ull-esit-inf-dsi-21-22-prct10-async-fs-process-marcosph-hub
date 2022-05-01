@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc-watch --onSuccess \"node dist/index.js\"",
-    "modif": "tsc-watch --onSuccess \"node dist/modifiacion/suma.js\"",
+    "ejer1": "tsc-watch --onSuccess \"node dist/traceof.js\"",
     "test": "mocha",
     "doc": "typedoc",
     "coverage": "nyc npm test && nyc report --reporter=lcov"
